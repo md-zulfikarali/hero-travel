@@ -92,3 +92,21 @@ a:hover{
 .header-container{
    padding-top: 110px;
 }
+/* main section start */
+/* our popular tours */
+.our-popular-tours{
+    display: flex;
+    width: 1140px;
+    margin-top: 50px;
+}
+.our-popular-tour-text{
+    padding: 20px;
+    width: 50%;
+}
+.our-popular-tour-image{
+    width: 50%;
+}
+.our-popular-tour-image img{
+    width: 550px;
+    height: 450px;
+}
