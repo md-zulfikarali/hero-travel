@@ -1,141 +1,207 @@
-body{
+body {
     width: 90%;
     margin: 0 auto;
 }
+
 /* shared style */
-.btn-primary{
+.btn-primary {
     border-radius: 10px;
     background: #FF5400;
     color: white;
     border: none;
-    padding:10px;
+    padding: 10px;
     width: 120px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     color: black;
     background-color: bisque;
     cursor: pointer;
 }
-.text-box{
+
+.text-box {
     width: 120px;
     padding: 10px;
     border-radius: 10px;
     border: none;
 }
-.text-box:hover{
+
+.text-box:hover {
     border: 2px solid blueviolet;
-   
+
 }
-.select{
+
+.select {
     width: 120px;
     padding: 10px;
     border-radius: 10px;
     border: none;
 }
-select:hover{
+
+select:hover {
     border: 2px solid blueviolet;
 }
 
 /* header section */
 
 /* navigation section */
-.navigation{
+.navigation {
     width: 1140px;
     display: flex;
 }
-.travel-text{
-  color:#FF5400;  
+
+.travel-text {
+    color: #FF5400;
 }
-.navigation ul{
- gap: 30px;
+
+.navigation ul {
+    gap: 30px;
 }
-.navigation-logo{
+
+.navigation-logo {
     width: 50%;
     display: flex;
     align-items: center;
-    gap: 20px
-    ;
+    gap: 20px;
 }
-.navigation-link ul{
+
+.navigation-link ul {
     width: 50%;
     list-style: none;
     display: flex;
     margin-right: 0;
 }
-.navigation-link a{
+
+.navigation-link a {
     text-decoration: none;
-    
+
 }
-a:hover{
+
+a:hover {
     text-decoration: underline;
 }
+
 /* background image */
-.background-image{
+.background-image {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     width: 1140px;
     height: 500px;
     justify-content: center;
     background-repeat: no-repeat;
 }
-.header-text{
+
+.header-text {
     text-align: center;
     color: white;
 }
-.header-form{
+
+.header-form {
     display: flex;
     justify-content: center;
     gap: 15px;
 }
 
-.header-container{
-   padding-top: 110px;
+.header-container {
+    padding-top: 110px;
 }
+
 /* main section start */
 /* our popular tours */
-.our-popular-tours{
+.our-popular-tours {
     display: flex;
     width: 1140px;
     margin-top: 50px;
 }
-.our-popular-tour-text{
+
+.our-popular-tour-text {
     padding: 20px;
     width: 50%;
 }
-.our-popular-tour-image{
+
+.our-popular-tour-image {
     width: 50%;
 }
-.our-popular-tour-image img{
+
+.our-popular-tour-image img {
     width: 550px;
     height: 450px;
 }
 
 /* choose our destination section */
-.choose-your-destination-container{
+.choose-your-destination-container {
     margin-top: 50px;
 }
+
 /* .choose-our-destination-text{
     width: 1140px;
     text-align: center;
 } */
-.choose-our-destination-heading-text{
+.choose-our-destination-heading-text {
     text-align: center;
 }
-.choose-our-destination-text-description{
+
+.choose-our-destination-text-description {
     width: 500px;
-   padding: 0 370px 0 340px;
+    padding: 0 370px 0 340px;
 }
-.top-image{
+
+.top-image {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
-.middle-image{
+
+.middle-image {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
 }
-.bottom-image{
+
+.bottom-image {
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+}
+
+/* why choose us section */
+.Why-Choose-Us{
+    margin-top: 50px;
+}
+.Why-Choose-Us-text{
+    text-align: center;
+}
+.top-two-card {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+   
+}
+.why-choose-us-card-one{
+    width: 373px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+    gap: 30px;
+}
+.why-choose-us-card-two{
+    width: 373px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+    gap: 30px;
+}
+.bottom-one-card{
+    width: 373px;
+    height: 184px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+    gap: 30px;
+ 
+    margin: 10px auto 0 auto;
 }
