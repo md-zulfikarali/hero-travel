@@ -1,0 +1,56 @@
+/* header section */
+/* navigation section */
+
+@media screen and (max-width:600px) {
+   
+    .navigation{
+        flex-direction: column;
+    }
+    .background-image{
+        width: auto;
+        height: auto;
+    }
+    .header-form{
+        flex-direction: column;
+        padding-left: 200px;
+    }
+    .our-popular-tours{
+        flex-direction: column;
+    }
+    .our-popular-tour-text{
+        width: 550px;
+        height: auto;
+    }
+    .our-popular-tour-text-description{
+        width: 500px;
+        height: auto;
+    }
+    .our-popular-tour-text-list li{
+        width: 400px;
+        height: auto;
+    }
+    .our-popular-tours img{
+        width: 500px;
+        height: auto;
+    }
+    .top-image, .middle-image, .bottom-image{
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    } 
+    .our-popular-tour-text{
+        width: auto;
+        height: auto;
+    }
+    .our-popular-tour-image{
+        width: auto;
+        height: auto;
+    }
+    .choose-our-destination-text{
+        justify-content: left;
+    }
+    .choose-our-destination-text-description{
+        padding-left: 0;
+    }
+}
+    

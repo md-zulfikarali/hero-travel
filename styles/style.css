@@ -40,7 +40,7 @@ select:hover{
 
 /* navigation section */
 .navigation{
-    width: 1440px;
+    width: 1140px;
     display: flex;
 }
 .travel-text{
@@ -60,7 +60,7 @@ select:hover{
     width: 50%;
     list-style: none;
     display: flex;
-    
+    margin-right: 0;
 }
 .navigation-link a{
     text-decoration: none;
@@ -82,11 +82,9 @@ a:hover{
     color: white;
 }
 .header-form{
-   
-    text-align: center;
-    color: white;
-
-  
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .header-container{
@@ -115,11 +113,29 @@ a:hover{
 .choose-your-destination-container{
     margin-top: 50px;
 }
-.choose-our-destination-text{
+/* .choose-our-destination-text{
     width: 1140px;
+    text-align: center;
+} */
+.choose-our-destination-heading-text{
     text-align: center;
 }
 .choose-our-destination-text-description{
     width: 500px;
    padding: 0 370px 0 340px;
+}
+.top-image{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.middle-image{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.bottom-image{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 }
