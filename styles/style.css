@@ -1,0 +1,94 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+/* shared style */
+.btn-primary{
+    border-radius: 10px;
+    background: #FF5400;
+    color: white;
+    border: none;
+    padding:10px;
+    width: 120px;
+}
+.btn-primary:hover{
+    color: black;
+    background-color: bisque;
+    cursor: pointer;
+}
+.text-box{
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.text-box:hover{
+    border: 2px solid blueviolet;
+   
+}
+.select{
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+select:hover{
+    border: 2px solid blueviolet;
+}
+
+/* header section */
+
+/* navigation section */
+.navigation{
+    width: 1440px;
+    display: flex;
+}
+.travel-text{
+  color:#FF5400;  
+}
+.navigation ul{
+ gap: 30px;
+}
+.navigation-logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px
+    ;
+}
+.navigation-link ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    
+}
+.navigation-link a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+/* background image */
+.background-image{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1140px;
+    height: 500px;
+    justify-content: center;
+    background-repeat: no-repeat;
+}
+.header-text{
+    text-align: center;
+    color: white;
+}
+.header-form{
+   
+    text-align: center;
+    color: white;
+
+  
+}
+
+.header-container{
+   padding-top: 110px;
+}
