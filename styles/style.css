@@ -110,3 +110,16 @@ a:hover{
     width: 550px;
     height: 450px;
 }
+
+/* choose our destination section */
+.choose-your-destination-container{
+    margin-top: 50px;
+}
+.choose-our-destination-text{
+    width: 1140px;
+    text-align: center;
+}
+.choose-our-destination-text-description{
+    width: 500px;
+   padding: 0 370px 0 340px;
+}
