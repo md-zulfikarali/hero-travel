@@ -145,6 +145,7 @@ a:hover {
     padding: 0 370px 0 340px;
 }
 
+
 .top-image {
     display: flex;
     gap: 10px;
@@ -268,4 +269,30 @@ a:hover {
    
     text-align: center;
     padding-top: 10px;
+}
+
+/* footer section */
+.footer{
+    height: 400px;
+    background: rgba(19, 19, 24, 0.05);
+    padding-top: 50px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   justify-content: center;
+   
+}
+.foorer-description{
+text-align: center;
+}
+.footer-icon{
+    display: flex;
+   justify-content: center;
+   gap: 20px;
+   margin-top: 20px;
+}
+.bottom-footer{
+    text-align: center;
 }

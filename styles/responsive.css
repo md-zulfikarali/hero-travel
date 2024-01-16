@@ -52,6 +52,7 @@
     .choose-our-destination-text-description{
         padding-left: 0;
     }
+   
     .top-two-card{
         flex-direction: column;
         width: auto;
@@ -62,6 +63,9 @@
     }
     .news-letter{
         flex-direction: column;
+    }
+    .footer-horizontal-line hr{
+       max-width: 400px;
     }
 }
 
