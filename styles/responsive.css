@@ -30,7 +30,7 @@
         height: auto;
     }
     .our-popular-tours img{
-        width: 500px;
+        width: auto;
         height: auto;
     }
     .top-image, .middle-image, .bottom-image{
@@ -57,8 +57,12 @@
         width: auto;
         height: auto;
     }
-    /* .bottom-one-card{
+    .bottom-one-card{
         margin-left: 0;
-    } */
+    }
+    .news-letter{
+        flex-direction: column;
+    }
 }
+
     

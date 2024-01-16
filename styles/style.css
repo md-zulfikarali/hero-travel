@@ -164,19 +164,22 @@ a:hover {
 }
 
 /* why choose us section */
-.Why-Choose-Us{
+.Why-Choose-Us {
     margin-top: 50px;
 }
-.Why-Choose-Us-text{
+
+.Why-Choose-Us-text {
     text-align: center;
 }
+
 .top-two-card {
     display: flex;
     gap: 35px;
     justify-content: center;
-   
+
 }
-.why-choose-us-card-one{
+
+.why-choose-us-card-one {
     width: 373px;
     height: 184px;
     border-radius: 16px;
@@ -185,7 +188,8 @@ a:hover {
     padding: 30px;
     gap: 30px;
 }
-.why-choose-us-card-two{
+
+.why-choose-us-card-two {
     width: 373px;
     height: 184px;
     border-radius: 16px;
@@ -194,7 +198,8 @@ a:hover {
     padding: 30px;
     gap: 30px;
 }
-.bottom-one-card{
+
+.bottom-one-card {
     width: 373px;
     height: 184px;
     border-radius: 16px;
@@ -202,6 +207,65 @@ a:hover {
     background: rgba(251, 181, 99, 0.05);
     padding: 30px;
     gap: 30px;
- 
+
     margin: 10px auto 0 auto;
+}
+
+/* news letter section */
+.news-letter {
+   margin-top: 50px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* .news-letter-form-input {
+    width: 40%;
+
+} */
+.news-letter-form-input input:hover{
+    border: 2px solid blueviolet;
+}
+
+.news-letter-image img {
+    height: 300px;
+    width: 100%;
+}
+
+.news-letter-form-input input {
+    width: 293px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding-left: 10px;
+}
+
+.news-letter-form-input button {
+    width: 293px;
+    height: 52px;
+    border-radius: 8px;
+}
+
+.save-travel-cost {
+    text-align: center;
+    
+    width: 224px;
+    height: 90px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    left: 250px;
+    top: -150px;
+}
+.save-travel-cost h4{
+   
+    text-align: center;
+  
+}
+.save-travel-cost p{
+   
+    text-align: center;
+    padding-top: 10px;
 }
