@@ -46,6 +46,7 @@ select:hover {
 
 /* navigation section */
 .navigation {
+    padding-top: 25px;
     width: 1140px;
     display: flex;
 }
@@ -74,6 +75,7 @@ select:hover {
 
 .navigation-link a {
     text-decoration: none;
+    color: black;
 
 }
 
@@ -83,6 +85,7 @@ a:hover {
 
 /* background image */
 .background-image {
+    margin-top: 25px;
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     width: 1140px;
     height: 500px;
